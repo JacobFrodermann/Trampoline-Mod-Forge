@@ -1,0 +1,6 @@
+{
+    "variants":{
+        "":{ "model": "trampoline:block/white"},
+        "red": {"model": "trampoline:block/red"}
+    }
+}
