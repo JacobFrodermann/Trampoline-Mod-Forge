@@ -2,7 +2,6 @@ package com.red_s2.trampoline.setup;
 
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
-import net.minecraft.core.RegistryAccess.RegistryEntry;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.state.BlockBehaviour;
@@ -14,7 +13,7 @@ import net.minecraftforge.registries.RegistryObject;
 import static com.red_s2.trampoline.TrampolineMod.MODID;
 
 import com.red_s2.trampoline.Blocks.White;
-import com.red_s2.trampoline.setup.ModSetup;
+import com.red_s2.trampoline.Blocks.Red;
 import net.minecraft.world.item.BlockItem;
 
 public class Registration {
@@ -28,14 +27,18 @@ public class Registration {
         ITEMS.register(bus);
     }
 
-    public static final BlockBehaviour.Properties TRAMPOLINE = BlockBehaviour.Properties.of(Material.METAL).jumpFactor(2).strength(2);
+    public static final BlockBehaviour.Properties TRAMPprops = BlockBehaviour.Properties.of(Material.METAL).jumpFactor(2).strength(2).speedFactor(0.75f);
     public static final Item.Properties ITEM_PROPERTIES = new Item.Properties().tab(ModSetup.ITEM_GROUP);
     
     //Blöcke
-    public static final RegistryObject<Block> WHITE = BLOCKS.register("white", () -> new White());
+    public static final RegistryObject<Block> WHITE = BLOCKS.register("white", () -> new White(TRAMPprops));
+    public static final RegistryObject<Block> RED = BLOCKS.register("red", () -> new Red(TRAMPprops));
+    //public static final RegistryObject<Block> BLUE = BLOCKS.register("white", () -> new White(TRAMPprops));
+    //public static final RegistryObject<Block> GREEN = BLOCKS.register("white", () -> new White(TRAMPprops));
 
     //ITEMS
     public static final RegistryObject<Item> WHITE_TRAMPOLINE_ITEM = fromBlock(WHITE);
+    public static final RegistryObject<Item> RED_TRAMPOLINE_ITEM = fromBlock(RED);
 
 
 
