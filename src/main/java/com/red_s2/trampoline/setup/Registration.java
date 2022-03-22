@@ -33,12 +33,13 @@ public class Registration {
     //Blöcke
     public static final RegistryObject<Block> WHITE = BLOCKS.register("white", () -> new White(TRAMPprops));
     public static final RegistryObject<Block> RED = BLOCKS.register("red", () -> new Red(TRAMPprops));
-    //public static final RegistryObject<Block> BLUE = BLOCKS.register("white", () -> new White(TRAMPprops));
+    public static final RegistryObject<Block> BLUE = BLOCKS.register("blue", () -> new White(TRAMPprops));
     //public static final RegistryObject<Block> GREEN = BLOCKS.register("white", () -> new White(TRAMPprops));
 
     //ITEMS
     public static final RegistryObject<Item> WHITE_TRAMPOLINE_ITEM = fromBlock(WHITE);
     public static final RegistryObject<Item> RED_TRAMPOLINE_ITEM = fromBlock(RED);
+    public static final RegistryObject<Item> RED_TRAMPOLINE_ITEM = fromBlock(BLUE);
 
 
 
