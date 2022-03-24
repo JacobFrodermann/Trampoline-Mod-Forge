@@ -12,8 +12,8 @@ import net.minecraft.world.phys.shapes.CollisionContext;
 
 import java.util.*;
 
-public class White extends Block{
-    public White(Properties props) {
+public class Trampoline extends Block{
+    public Trampoline(Properties props) {
         super(props);
     }
     
