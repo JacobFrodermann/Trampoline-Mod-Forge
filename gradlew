@@ -1,7 +1,7 @@
 #!/bin/sh
 
 #
-# Copyright © 2015-2021 the original authors.
+# Copyright ï¿½ 2015-2021 the original authors.
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -32,10 +32,10 @@
 #       Busybox and similar reduced shells will NOT work, because this script
 #       requires all of these POSIX shell features:
 #         * functions;
-#         * expansions «$var», «${var}», «${var:-default}», «${var+SET}»,
-#           «${var#prefix}», «${var%suffix}», and «$( cmd )»;
-#         * compound commands having a testable exit status, especially «case»;
-#         * various built-in commands including «command», «set», and «ulimit».
+#         * expansions ï¿½$varï¿½, ï¿½${var}ï¿½, ï¿½${var:-default}ï¿½, ï¿½${var+SET}ï¿½,
+#           ï¿½${var#prefix}ï¿½, ï¿½${var%suffix}ï¿½, and ï¿½$( cmd )ï¿½;
+#         * compound commands having a testable exit status, especially ï¿½caseï¿½;
+#         * various built-in commands including ï¿½commandï¿½, ï¿½setï¿½, and ï¿½ulimitï¿½.
 #
 #   Important for patching:
 #
@@ -117,13 +117,13 @@ esac
 CLASSPATH=$APP_HOME/gradle/wrapper/gradle-wrapper.jar
 
 
-# Determine the Java command to use to start the JVM.
+# Determine the Java command to use to start the JVM.dd
 if [ -n "$JAVA_HOME" ] ; then
     if [ -x "$JAVA_HOME/jre/sh/java" ] ; then
         # IBM's JDK on AIX uses strange locations for the executables
         JAVACMD=$JAVA_HOME/jre/sh/java
     else
-        JAVACMD=$JAVA_HOME/bin/java
+        JAVACMD=/usr/java/jdk-17.0.2/bin/java
     fi
     if [ ! -x "$JAVACMD" ] ; then
         die "ERROR: JAVA_HOME is set to an invalid directory: $JAVA_HOME

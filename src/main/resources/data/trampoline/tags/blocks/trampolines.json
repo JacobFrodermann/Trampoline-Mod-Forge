@@ -1,0 +1,20 @@
+{
+  "replace": false,
+  "values": [
+    "trampoline:block/white",
+    "trampoline:block/red",
+    "trampoline:block/blue",
+    "trampoline:block/green",
+    "trampoline:block/lime",
+    "trampoline:block/purple",
+    "trampoline:block/cyan",
+    "trampoline:block/black",
+    "trampoline:block/yellow",
+    "trampoline:block/light_gray",
+    "trampoline:block/orannge",
+    "trampoline:block/gray",
+    "trampoline:block/light_blue",
+    "trampoline:block/brown",
+    "trampoline:block/pink"
+  ]
+}

@@ -1,5 +1,6 @@
 package com.red_s2.trampoline.setup;
 
+import com.red_s2.trampoline.TrampolineMod;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraft.world.item.Item;
@@ -9,6 +10,9 @@ import net.minecraft.world.level.material.Material;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
+import net.minecraft.tags.Tag;
+import net.minecraft.tags.BlockTags;
+import  net.minecraft.resources.ResourceLocation;
 
 import static com.red_s2.trampoline.TrampolineMod.MODID;
 
@@ -26,7 +30,7 @@ public class Registration {
         ITEMS.register(bus);
     }
 
-    public static final BlockBehaviour.Properties TRAMPprops = BlockBehaviour.Properties.of(Material.METAL).jumpFactor(2).strength(2).speedFactor(0.75f);
+    public static final BlockBehaviour.Properties TRAMPprops = BlockBehaviour.Properties.of(Material.METAL).jumpFactor(1.5f).strength(2).speedFactor(0.75f);
     public static final Item.Properties ITEM_PROPERTIES = new Item.Properties().tab(ModSetup.ITEM_GROUP);
     
     //Blöcke
@@ -67,5 +71,10 @@ public class Registration {
     public static <B extends Block> RegistryObject<Item> fromBlock(RegistryObject<B> block) {
         return ITEMS.register(block.getId().getPath(), () -> new BlockItem(block.get(), ITEM_PROPERTIES));
     }
+    /*
+    public  static  final  class BlockTags {
+        private static Tag.Named<Block> mod(String path) {
+            return BlockTags.bind(new ResourceLocation(MODID, path).toString());
+        }
+    }*/
 }
-/**/
