@@ -1,7 +1,7 @@
-Java Launcher: C:\Users\jacob.frodermann\.gradle\jdks\adoptium-17-x64-hotspot-windows\bin\java.exe
-Arguments: '--inJar, C:\Users\jacob.frodermann\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.18.2-40.0.19\forge-1.18.2-40.0.19-injected.jar, --outJar, C:\Users\jacob.frodermann\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.18.2-40.0.19_mapped_official_1.18.2\forge-1.18.2-40.0.19_mapped_official_1.18.2.jar, --logFile, accesstransform.log, --atFile, C:\Users\jacob.frodermann\Documents\GitHub\Trampoline-Mod-Forge\mod\build\_atJar_4\parent_at.cfg'
+Java Launcher: /usr/lib/jvm/java-17-openjdk/bin/java
+Arguments: '--inJar, /home/jef/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.18.2-40.0.19/forge-1.18.2-40.0.19-injected.jar, --outJar, /home/jef/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.18.2-40.0.19_mapped_official_1.18.2/forge-1.18.2-40.0.19_mapped_official_1.18.2.jar, --logFile, accesstransform.log, --atFile, /home/jef/git/Trampoline-Mod-Forge/build/_atJar_4/parent_at.cfg'
 Classpath:
- - C:\Users\jacob.frodermann\.gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\accesstransformers\8.0.7\accesstransformers-8.0.7-fatjar.jar
-Working directory: C:\Users\jacob.frodermann\Documents\GitHub\Trampoline-Mod-Forge\mod\build\_atJar_4
+ - /home/jef/.gradle/caches/forge_gradle/maven_downloader/net/minecraftforge/accesstransformers/8.0.7/accesstransformers-8.0.7-fatjar.jar
+Working directory: /home/jef/git/Trampoline-Mod-Forge/build/_atJar_4
 Main class: net.minecraftforge.accesstransformer.TransformerProcessor
 ====================================

@@ -1,4 +1,18 @@
 {
     "block.trampoline.white":"white trampoline",
+    "block.trampoline.red":"red trampoline",
+    "block.trampoline.blue":"blue trampoline",
+    "block.trampoline.green":"green trampoline",
+    "block.trampoline.lime":"lime trampoline",
+    "block.trampoline.purple":"purple trampoline",
+    "block.trampoline.cyan":"cyan trampoline",
+    "block.trampoline.black":"black trampoline",
+    "block.trampoline.yellow":"yellow trampoline",
+    "block.trampoline.light_gray":"lightgray trampoline",
+    "block.trampoline.orange":"orange trampoline",
+    "block.trampoline.gray":"gray trampoline",
+    "block.trampoline.light_blue":"lightblue trampoline",
+    "block.trampoline.brown":"brown trampoline",
+    "block.trampoline.pink":"pink trampoline",
     "itemGroup.Trampolines":"Trampolines"
 }
